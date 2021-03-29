@@ -23,7 +23,7 @@ public class JokesController {
     public String showJoke(Model model){
 
         model.addAttribute("joke", jokeService.getJokes());
-        return "index";
+        return "index"; // calling index.html file
     }
 
 }
